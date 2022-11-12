@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background: #F4F5FF;">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -32,32 +32,55 @@
     <link rel="stylesheet" href="assets/css/Toggle-Switch.css">
 </head>
 
-<body style="background: #eee;">
-    <section class="position-relative py-4 py-xl-5">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2>LOG IN&nbsp;</h2>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-6 col-xl-4" style="width: 500px;height: 500px;">
-                    <div class="card mb-5">
-                        <div class="card-body bg-white border rounded shadow-lg d-flex flex-column align-items-center" data-bs-toggle="tooltip" data-bss-tooltip="" style="box-shadow: 0px 2px, 0px 3px;height: 430px;border-style: solid;border-radius: 20px;">
-                            <div class="bs-icon-xl bs-icon-circle bs-icon-primary border-1 shadow-lg bs-icon my-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person">
-                                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
-                                </svg></div>
-                            <form class="text-center" method="post">
-                                <div class="mb-3"><input class="border rounded shadow-sm form-control form-control-lg" type="email" data-bs-toggle="tooltip" data-bss-tooltip="" name="email" placeholder="Email" title="Email" style="box-shadow: 0px 0px, 0px 2px;border-radius: 14px;"></div>
-                                <div class="mb-3"><input class="border rounded shadow-sm form-control form-control-lg" type="password" data-bs-toggle="tooltip" data-bss-tooltip="" name="password" placeholder="Password" title="Password"></div>
-                                <div class="mb-3"><button class="btn btn-primary fw-semibold d-block w-100" data-bss-hover-animate="pulse" type="submit" style="transform: perspective(1px);">Login</button></div>
-                            </form><a href="#" style="margin-top: 20px;">Forgot password?</a><a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<body style="background: #F4F5FF;">
+    <div class="container">
+        <h2 class="text-center text-primary py-5">Customers Profile</h2>
+    </div>
+    <div class="container">
+        <div class="table-responsive text-center rounded-2 shadow-sm" style="background: #fff;">
+            <table class="table">
+                <thead>
+                    <tr class="text-light" style="background: #4072C9;">
+                        <th>Customers ID</th>
+                        <th>Customer Name</th>
+                        <th>Contact Number</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>091230123</td>
+                        <td>johndoe@gmail.com</td>
+                        <td>B-19 Brgy. San isidro Angono Rizal&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Mary rose&nbsp;</td>
+                        <td>123821930</td>
+                        <td>rose.mary@gmail.com</td>
+                        <td>36 J.P Rizal St. Binangonan rizal</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Jane Smith</td>
+                        <td>190231313</td>
+                        <td>smithjane@gmail.com</td>
+                        <td>065 P. Burgos St. Libid Binangonan Rizal</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Blake johnson</td>
+                        <td>901231331</td>
+                        <td>blakejohnson@gmail.com</td>
+                        <td>B-89 L-99 Brgy ABC Angono Rizal</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    </section>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

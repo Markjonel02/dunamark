@@ -1,0 +1,37 @@
+.edit-icon {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.add-another-btn {
+  border: 2px solid #5C99C7;
+  color: #5C99C7;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+.add-another-btn:hover {
+  border: 2px solid #5C99C7;
+  background: #eee;
+  color: white;
+}
+
+* {
+  font-family: 'poppins';
+}
+
+form-control:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.btn {
+}
+
+* {
+  /*transition: all 0.3s ease 0.1s;*/
+}
+
+#tiles {
+  /*color: #858796;*/
+}
+

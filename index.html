@@ -7,20 +7,27 @@
     <title>Dashboard - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Add-Another-Button-1.css">
+    <link rel="stylesheet" href="assets/css/Add-Another-Button.css">
     <link rel="stylesheet" href="assets/css/animated-services.css">
     <link rel="stylesheet" href="assets/css/Bootstrap-4---Photo-Gallery.css">
     <link rel="stylesheet" href="assets/css/Clock-Real-Time.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean-icons.css">
+    <link rel="stylesheet" href="assets/css/Google-Style-Text-Input.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/Landing-Page---Parallax-Background---Logo-Heading-ButtonGIF.css">
     <link rel="stylesheet" href="assets/css/Pretty-Footer-.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form-.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Search-Form-.css">
+    <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
     <link rel="stylesheet" href="assets/css/Toggle-Switch-toggle-switch.css">
     <link rel="stylesheet" href="assets/css/Toggle-Switch.css">
 </head>
@@ -34,10 +41,10 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt" style="font-size: 14px;"></i><span>Dashboard</span></a><a class="nav-link" href="profile.html"><i class="fas fa-user"></i><span>Customers Profile</span></a><a class="nav-link" href=".html"><i class="far fa-chart-bar"></i><span>Point of Sale&nbsp;</span></a><a class="nav-link" href="inventory.html"><i class="fas fa-store-alt"></i><span>Inventory</span></a><a class="nav-link" href=".html"><i class="fas fa-user"></i><span>User Management</span></a><a class="nav-link" href=".html"><i class="far fa-chart-bar"></i><span>Sales&nbsp;</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" data-aos="fade" href="index.html"><i class="fas fa-tachometer-alt" style="font-size: 14px;"></i><span>Dashboard</span></a><a class="nav-link" href="client.html"><i class="fas fa-user"></i><span>Customers Profile</span></a><a class="nav-link" href=".html"><i class="far fa-chart-bar"></i><span>Point of Sale&nbsp;</span></a><a class="nav-link" href="inventory.html"><i class="fas fa-store-alt"></i><span>Inventory</span></a><a class="nav-link" href="usermanagement.html"><i class="fas fa-user"></i><span>User Management</span></a><a class="nav-link" href="sales.html"><i class="far fa-chart-bar"></i><span>Sales&nbsp;</span></a></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" href="table.html"><i class="fas fa-history"></i><span>Transaction History</span></a><a class="nav-link" href="Gallery.html"><i class="far fa-images"></i><span>Visitors Page</span></a><a class="nav-link" href=".html"><i class="far fa-sun"></i><span>Settings</span></a><a class="nav-link" href="About.html"><i class="far fa-building"></i>&nbsp;About System</a></li>
+                    <li class="nav-item"><a class="nav-link" href="table.html"><i class="fas fa-history"></i><span>Transaction History</span></a><a class="nav-link" href="audit.html"><i class="fas fa-audio-description"></i><span>Audit Trail</span></a><a class="nav-link" href="Gallery.html"><i class="far fa-images"></i><span>Visitors Page</span></a><a class="nav-link" href="settings.html"><i class="far fa-sun"></i><span>Settings</span></a><a class="nav-link" href="About.html"><i class="far fa-building"></i>&nbsp;About System</a></li>
                     <li class="nav-item"></li>
                 </ul>
                 <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button" style="background: var(--bs-navbar-toggler-border-color);"></button></div>
@@ -45,7 +52,7 @@
         </nav>
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
-                <nav class="navbar navbar-light navbar-expand bg-light shadow mb-4 topbar static-top" style="box-shadow: 0px 0px;">
+                <nav class="navbar navbar-light navbar-expand bg-light shadow topbar static-top shadow-sm bg-white" style="box-shadow: 0px 0px;background: #fff;">
                     <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
                         <div id="time-2"></div>
                         <div class="col-lg-5" data-bss-hover-animate="flash">
@@ -103,19 +110,19 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="container-fluid" style="overflow: auto;">
+                <div class="container-fluid pt-3" style="overflow: auto;background: #F4F5FF;">
                     <div class="d-sm-flex justify-content-between align-items-center mb-4">
-                        <h3 class="text-dark mb-0">Dashboard</h3>
+                        <h3 class="text-dark mb-0 fw-bold" style="--bs-body-font-weight: normal;font-size: 2.1rem;">Dashboard</h3>
                     </div>
                     <div class="row" data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="500" style="overflow: auto;">
                         <div class="col-md-6 col-lg-6 col-xl-3 mb-4">
-                            <div class="card shadow border-start-primary py-2" style="background: var(--bs-card-cap-bg);">
+                            <div class="card shadow border-start-primary py-2 shadow-sm" style="background: #fff;">
                                 <div class="card-body">
                                     <div class="row align-items-center no-gutters">
-                                        <div class="col me-2">
+                                        <div class="col me-2" style="background: #fff;">
                                             <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span>Earnings (annual)</span></div>
                                             <div class="text-uppercase text-primary fw-bold text-xs mb-1"></div>
-                                            <div class="text-dark fw-bold h5 mb-0"><span>PHP 1.3 Million</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span class="fs-6">PHP 1.3 Million</span></div>
                                             <div class="text-dark fw-bold h5 mb-0"></div>
                                         </div>
                                         <div class="col-auto"><i class="fas fa-calendar fa-2x text-gray-300"></i></div>
@@ -124,12 +131,12 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-6 col-xl-3 mb-4">
-                            <div class="card shadow border-start-success py-2" style="background: var(--bs-card-cap-bg);">
+                            <div class="card shadow border-start-success py-2 shadow-sm" style="background: var(--bs-card-bg);">
                                 <div class="card-body">
                                     <div class="row align-items-center no-gutters">
                                         <div class="col me-2">
-                                            <div class="text-uppercase text-success fw-bold text-xs mb-1"><span>Earnings (monthly)</span></div>
-                                            <div class="text-dark fw-bold h5 mb-0"><span>PHP 40,000</span></div>
+                                            <div class="text-uppercase text-success fw-bold text-xs mb-1"><span class="text-primary">Earnings (monthly)</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span class="fs-6">PHP 40,000</span></div>
                                         </div>
                                         <div class="col-auto"><i class="fas fa-dollar-sign fa-2x text-gray-300"></i></div>
                                     </div>
@@ -137,11 +144,11 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-6 col-xl-3 mb-4">
-                            <div class="card shadow border-start-info py-2" style="background: var(--bs-card-cap-bg);">
+                            <div class="card shadow border-start-info py-2 shadow-sm" style="background: var(--bs-card-bg);">
                                 <div class="card-body">
                                     <div class="row align-items-center no-gutters">
                                         <div class="col me-2">
-                                            <div class="text-uppercase text-info fw-bold text-xs mb-1"><span>Transactions</span></div>
+                                            <div class="text-uppercase text-info fw-bold text-xs mb-1"><span class="text-primary">Transactions</span></div>
                                             <div class="row g-0 align-items-center">
                                                 <div class="col-auto col-lg-4">
                                                     <div class="text-dark fw-bold h5 mb-0 me-3"><span>50</span></div>
@@ -154,11 +161,11 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-6 col-xl-3 mb-4">
-                            <div class="card shadow border-start-info py-2" style="background: var(--bs-card-cap-bg);">
+                            <div class="card shadow border-start-info py-2 shadow-sm" style="background: var(--bs-white);">
                                 <div class="card-body">
                                     <div class="row align-items-center no-gutters">
                                         <div class="col me-2">
-                                            <div class="text-uppercase text-info fw-bold text-xs mb-1"><span>Total Products</span></div>
+                                            <div class="text-uppercase text-info fw-bold text-xs mb-1"><span class="text-primary">Total Products</span></div>
                                             <div class="row g-0 align-items-center">
                                                 <div class="col-auto">
                                                     <div class="text-dark fw-bold h5 mb-0 me-3"><span>83</span></div>
@@ -172,66 +179,42 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-7 col-xl-8" data-aos="fade-left" data-aos-duration="150" data-aos-delay="500" style="overflow: auto;">
+                        <div class="col-lg-7 col-xl-8" data-aos="fade-left" data-aos-duration="150" data-aos-delay="500" style="overflow: auto;background: #F4F5FF;">
                             <div class="card shadow mb-4">
-                                <div class="card-header py-3" style="background: #eeee;">
-                                    <h6 class="text-center text-primary fw-bold m-0">Inventory System</h6>
+                                <div class="card-header py-3" style="background: #fff;">
+                                    <h6 class="text-center text-primary fw-bold m-0">Stock Level</h6>
                                 </div>
-                                <div class="card-body">
-                                    <h4 class="small fw-bold">Tiles<span class="float-end">20%</span></h4>
+                                <div class="card-body" style="padding-bottom: 0px;">
+                                    <h4 class="small fw-bold">Ceramic Tiles<span class="float-end">Need to Restock!</span></h4>
                                     <div class="progress mb-4">
                                         <div class="progress-bar bg-danger" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="visually-hidden">20%</span></div>
                                     </div>
-                                    <h4 class="small fw-bold">Marbles<span class="float-end">40%</span></h4>
+                                    <h4 class="small fw-bold">Porcelain Tiles<span class="float-end">Warning!</span></h4>
                                     <div class="progress mb-4">
                                         <div class="progress-bar bg-warning" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><span class="visually-hidden">40%</span></div>
                                     </div>
-                                    <h4 class="small fw-bold">Faucets<span class="float-end">60%</span></h4>
+                                    <h4 class="small fw-bold">Adhesive<span class="float-end">Normal</span></h4>
                                     <div class="progress mb-4">
                                         <div class="progress-bar bg-primary" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="visually-hidden">60%</span></div>
                                     </div>
-                                    <h4 class="small fw-bold">Kitchen Sink - Metal<span class="float-end">80%</span></h4>
+                                    <h4 class="small fw-bold">Grout<span class="float-end">Good</span></h4>
                                     <div class="progress mb-4">
-                                        <div class="progress-bar bg-info" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="visually-hidden">80%</span></div>
+                                        <div class="progress-bar bg-success" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="visually-hidden">80%</span></div>
                                     </div>
-                                    <h4 class="small fw-bold">Other items<span class="float-end">Good</span></h4>
+                                    <h4 class="small fw-bold">Skim Coat<span class="float-end">Good</span></h4>
                                     <div class="progress mb-4">
                                         <div class="progress-bar bg-success" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
                                     </div>
-                                    <h4 class="small fw-bold">Tile cement<span class="float-end">Out of Stock!</span></h4>
+                                    <h4 class="small fw-bold">Sanitary Ware<span class="float-end">Out of Stock!</span></h4>
                                     <div class="progress mb-4">
                                         <div class="progress-bar bg-secondary" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
                                     </div>
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body" style="padding-top: 5px;">
                                     <div class="row">
-                                        <div class="col-lg-6 mb-4">
-                                            <div class="card text-white bg-success shadow">
-                                                <div class="card-body">
-                                                    <p class="m-0">Good&nbsp;</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 mb-4">
-                                            <div class="card text-white bg-warning shadow">
-                                                <div class="card-body">
-                                                    <p class="m-0">Warning</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 mb-4">
-                                            <div class="card text-white bg-danger shadow">
-                                                <div class="card-body">
-                                                    <p class="m-0">Need to Restock</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 mb-4">
-                                            <div class="card text-white bg-secondary shadow">
-                                                <div class="card-body">
-                                                    <p class="m-0">Out of Stock!</p>
-                                                </div>
-                                            </div>
+                                        <div class="col">
+                                            <div class="text-center small mt-4"><span class="me-2"><i class="fas fa-circle text-danger" id="tiles" style="font-size: 17px;"></i>&nbsp;Need to Restock&nbsp;&nbsp;</span><span class="me-2"><i class="fas fa-circle text-warning" style="font-size: 17px;"></i>Warning&nbsp;</span><span class="me-2"></span><span class="me-2"><i class="fas fa-circle text-primary" style="font-size: 17px;"></i>&nbsp;Normal</span><span class="me-2"><i class="fas fa-circle text-success" style="font-size: 17px;"></i>&nbsp;Good</span><span class="me-2"><i class="fas fa-circle text-secondary" style="--bs-dark-rgb: 58,59,69;--bs-secondary: #858796;--bs-secondary-rgb: 133,135,150;font-size: 17px;"></i>&nbsp;Out of Stock</span></div>
+                                            <div class="text-center small mt-4"></div>
                                         </div>
                                     </div>
                                     <div class="card shadow mb-4">
@@ -241,9 +224,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-xl-4" data-aos="fade-right" data-aos-duration="150" data-aos-delay="500" style="overflow: auto;">
+                        <div class="col-lg-5 col-xl-4" data-aos="fade-right" data-aos-duration="150" data-aos-delay="500" style="overflow: auto;background: #F4F5FF;">
                             <div class="card shadow mb-4">
-                                <div class="card-header d-flex justify-content-between align-items-center" style="background: #EEEEEE;">
+                                <div class="card-header d-flex justify-content-between align-items-center" style="background: #fff;">
                                     <h6 class="text-primary fw-bold m-0">Top Selling Products&nbsp;&nbsp;</h6>
                                     <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button>
                                         <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
@@ -257,34 +240,6 @@
                                     <div class="text-center small mt-4"><span class="me-2"><i class="fas fa-circle text-primary"></i>&nbsp;Tiles&nbsp;</span><span class="me-2"><i class="fas fa-circle text-success"></i>&nbsp;Sanitary Wares</span><span class="me-2"><i class="fas fa-circle text-info"></i>&nbsp;Allied Products</span></div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <footer style="color: rgb(78,115,223);background: url(&quot;https://images.pexels.com/photos/280232/pexels-photo-280232.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1&quot;);">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-4 footer-navigation">
-                                        <h3><a href="#" style="color: rgb(78,115,223);">Dunmark Tile Shop</a></h3>
-                                        <p class="company-name">Company Name © 2015 </p>
-                                    </div>
-                                    <div class="col-sm-6 col-md-4 footer-contacts">
-                                        <div><span data-bss-hover-animate="wobble" class="fa fa-map-marker footer-contacts-icon" style="background: rgb(78,115,223);"> </span>
-                                            <p style="color: rgb(78,115,223);"><span class="new-line-span" style="color: rgb(78,115,223);">21 Revolution Street</span> Paris, France</p>
-                                        </div>
-                                        <div><i class="fa fa-phone footer-contacts-icon" data-bss-hover-animate="wobble" style="background: rgb(78,115,223);"></i>
-                                            <p class="footer-center-info email text-start" style="color: rgb(78,115,223);"> +1 555 123456</p>
-                                        </div>
-                                        <div><i class="fa fa-envelope footer-contacts-icon" data-bss-hover-animate="wobble" style="background: rgb(78,115,223);"></i>
-                                            <p> <a href="#" target="_blank">support@company.com</a></p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 footer-about">
-                                        <h4 style="color: rgb(78,115,223);">About the company</h4>
-                                        <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
-                                        <div class="social-links social-icons"><a data-bss-hover-animate="wobble" href="#" style="background: rgb(78,115,223);"><i class="fa fa-facebook"></i></a><a data-bss-hover-animate="wobble" href="#" style="background: rgb(78,115,223);"><i class="fa fa-twitter"></i></a><a data-bss-hover-animate="wobble" href="#" style="background: rgb(78,115,223);"><i class="fa fa-linkedin"></i></a><a data-bss-hover-animate="wobble" href="#" style="background: rgb(78,115,223);"><i class="fa fa-github"></i></a></div>
-                                    </div>
-                                </div>
-                            </footer>
                         </div>
                     </div>
                 </div>
